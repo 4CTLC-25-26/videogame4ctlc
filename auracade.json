@@ -153,8 +153,8 @@
       "file": "sertorio/sertorio.py",
       "display_name": "SERTORIO",
       "short_tagline": "Boss fight vibes",
-      "description": "Descrizione da inserire.",
-      "controls": []
+      "description": "L'astronave deve schiavare i meteoriti e sconfiggere le altre astonavi. Obiettivo arrivare a 2000 punti",
+      "controls": ["Tutto scritto nela pagina iniziale del gioco"]
     }
   ],
   "structure": {
