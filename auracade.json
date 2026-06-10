@@ -65,6 +65,7 @@
       "controls": [
         "Freccia sinistra/destra o A/D per muoversi",
         "SPAZIO per saltare",
+        "1/2/3/4 per selezionare la difficolta'",
         "R per restart (game over/victory)"
       ]
     },
@@ -74,87 +75,133 @@
       "display_name": "Caruso - Inf Presents",
       "short_tagline": "Natale sotto pressione: consegne e inseguimenti",
       "description": "Versione con regali infiniti.",
-      "controls": []
+      "controls": [
+        "Freccia sinistra/destra o A/D per muoversi",
+        "SPAZIO (o Freccia su/W) per saltare",
+        "1/2/3/4 per selezionare la difficolta'",
+        "R per restart (game over/victory)",
+        "ESC per uscire"
+      ]
     },
     {
       "id": "cotta",
       "file": "cotta.py",
       "display_name": "Cotta",
       "short_tagline": "Whack-a-mole",
-      "description": "Descrizione da inserire.",
-      "controls": []
+      "description": "Whack-a-mole a livelli: colpisci le talpe prima dello scadere del tempo evitando le bombe.",
+      "controls": [
+        "Muovi il mouse per spostare il martello",
+        "Click sinistro per colpire"
+      ]
     },
     {
       "id": "dani",
       "file": "dani.py",
-      "display_name": "DANI",
+      "display_name": "Dani",
       "short_tagline": "Premi start e spera",
-      "description": "Descrizione da inserire.",
-      "controls": []
+      "description": "Tower defense a ondate: piazza torri, potenziale e difendi la base da zombie e boss.",
+      "controls": [
+        "Tasti 1/2/3/4 per selezionare il tipo di torre",
+        "Click sinistro per piazzare/selezionare torri e usare pulsanti UI",
+        "ESC o Q per annullare selezione",
+        "Pulsante SPEED per cambiare velocita' (1x/2x)"
+      ]
     },
     {
       "id": "difeo",
       "file": "difeo.py",
-      "display_name": "DIFEO",
+      "display_name": "Difeo",
       "short_tagline": "Pixel drama",
-      "description": "salta gli ostacoli completando i livelli e passando a quelli successivi",
-      "controls": ["-Spazio per iniziare-Il personaggio si muove automaticamente verso destra.-Il giocatore può solo saltare premendo un tasto.spazio per restart"]
+      "description": "Salta gli ostacoli completando i livelli e passando a quelli successivi.",
+      "controls": [
+        "SPAZIO per iniziare",
+        "SPAZIO o Freccia su per saltare",
+        "SPAZIO per riprovare dopo game over"
+      ]
     },
     {
       "id": "labarbera",
       "file": "labarbera/labarbera.py",
-      "display_name": "LA BARBERA",
+      "display_name": "Labarbera",
       "short_tagline": "Tiger Ball",
       "description": "Centra il canestro e vinci!!",
-      "controls": ["Tutto scritto in gioco"]
+      "controls": [
+        "Click e trascina la palla per mirare, poi rilascia per lanciare",
+        "SPAZIO per perdere una vita e resettare il tiro",
+        "Click sull'icona bomba per usare una bomba"
+      ]
     },
     {
       "id": "manno",
       "file": "manno.py",
-      "display_name": "MANNO",
+      "display_name": "Manno",
       "short_tagline": "Classic mode",
-      "description": "Descrizione da inserire.",
-      "controls": []
+      "description": "Arcade dodge: schiva blocchi rossi e blu che cadono dall'alto e accumula punti.",
+      "controls": [
+        "Freccia sinistra/destra per muovere il personaggio"
+      ]
     },
     {
       "id": "martinez",
       "file": "martinez.py",
-      "display_name": "MARTINEZ",
+      "display_name": "Martinez",
       "short_tagline": "High score hunter",
-      "description": "Descrizione da inserire.",
-      "controls": []
+      "description": "Tetris con modalita' normale/difficile, nuovi pezzi e salvataggio del record.",
+      "controls": [
+        "N o D per scegliere la difficolta' nel menu",
+        "Freccia sinistra/destra per muovere il pezzo",
+        "Freccia su per ruotare",
+        "Freccia giu per soft drop",
+        "SPAZIO per hard drop"
+      ]
     },
     {
       "id": "monari",
       "file": "monari.py",
-      "display_name": "MONARI",
+      "display_name": "Monari",
       "short_tagline": "Insert coin",
-      "description": "Descrizione da inserire.",
-      "controls": []
+      "description": "Snake a tema Napoli con livelli progressivi, ostacoli fissi/mobili e schermate di transizione.",
+      "controls": [
+        "Freccette per muovere il serpente",
+        "SPAZIO per avviare e mettere in pausa",
+        "Mouse per usare pulsanti di menu/pausa"
+      ]
     },
     {
       "id": "perrotta",
       "file": "perrotta.py",
-      "display_name": "PERROTTA",
+      "display_name": "Perrotta",
       "short_tagline": "Speedrun ready",
-      "description": "Descrizione da inserire.",
-      "controls": []
+      "description": "Falling Squares: evita i quadrati rossi che cadono e prova a superare il punteggio massimo.",
+      "controls": [
+        "Freccia sinistra/destra per muovere il player",
+        "Click su GIOCA per iniziare dal menu"
+      ]
     },
     {
       "id": "ratta",
       "file": "ratta.py",
-      "display_name": "RATTA",
+      "display_name": "Ratta",
       "short_tagline": "No mercy",
-      "description": "Descrizione da inserire.",
-      "controls": []
+      "description": "Aereo shooter contro ondate nemiche e boss: salta, spara e scegli se continuare dopo il boss.",
+      "controls": [
+        "SPAZIO per iniziare e per far saltare l'aereo",
+        "Click del mouse per sparare",
+        "R per riprovare dopo game over",
+        "ESC per uscire"
+      ]
     },
     {
       "id": "sertorio",
       "file": "sertorio/sertorio.py",
-      "display_name": "SERTORIO",
+      "display_name": "Sertorio",
       "short_tagline": "Boss fight vibes",
-      "description": "Descrizione da inserire.",
-      "controls": []
+      "description": "Space shooter con asteroidi e navi nemiche: distruggi tutto e raggiungi 2000 punti per vincere.",
+      "controls": [
+        "Freccette per muovere la navicella",
+        "SPAZIO per sparare",
+        "Premi un tasto per iniziare e tornare al menu dopo partita"
+      ]
     }
   ],
   "structure": {
